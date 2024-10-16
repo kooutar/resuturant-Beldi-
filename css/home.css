@@ -120,16 +120,65 @@ footer{
     margin-top: 1250px;
     padding: 16px 0px;
 }
-/* .haut{
+.haut{
+  display: flex;
+  
+}
+/*  */
 
-} */
 .sochailLink{
     display: flex;
-
+    justify-content: space-around;
+    color: var(--lienHover);
+    font-size: 20px;
+    margin-top: 20px;
 }
 .line{
     width: 100%;
-    height: 5px;
-    background-color: #E9BD8C;
-    
+    height: 2px;
+    background-color: #E9BD8C; 
+}
+.tt{
+    margin-right: 100vh;
+}
+.imglink{
+    margin-left: 20px;
+}
+.sizelink{
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+.bas{
+  display: flex;
+  color:var(--textwhite);
+  justify-content: space-around;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.organise h6{
+    color: var(--lienHover);
+    font-size: 40px;   
+}
+
+.organise ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.recette{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.recette img{
+    margin-right: 10px;
+    width: 60px;
+    height: auto;
+}
+.recette .span{
+    display: block;
+}
+.recette .span .titre{
+   color: var(--lienHover);
 }

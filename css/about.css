@@ -13,9 +13,10 @@
 }
 body{
     background-color: #fff;
+    display: flex;    
 }
  
- .home{
+.home{
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -24,12 +25,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
  }
- header{
-   
+ header{ 
     position: relative;
      margin: 33px 0px 0px 73px;
-   
-
  }
  nav{
     display: flex;
@@ -56,58 +54,56 @@ a:hover{
     color:var(--lienHover);
 }
 .container{
-    margin-top: 15vh;
-    margin-left: 75px;
+    margin-top: 20vh;
+    margin-left: 135px;
     color: var(--textwhite);
 }
 .PtextHome{
     font-size: 5rem;
     font-family: 'Sansita Swashed', sans-serif;
 }
-.titleHome{
-    font-size: 1.5rem;
-    color: var(--lienHover);
-}
-.buttonHome{
+
+.discription{
     display: flex;
    margin-top: 16px;
 }
-.bte{
-    padding: 10px 16px;
-    background-color: var(--button);
-    color: var(--textwhite);
-    cursor: pointer;
+.discription p{
+    text-align: center;
+    margin-top: 20px;
 }
-.link{
-    color: var(--lienHover);
-    margin: 10px 0px 0px 5px;
+.titreAboutus{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top:108vh;
+	left: 50%;
+   text-align: center;
+   transform: translate(-50%, -50%);
 }
-
-/* style partie 2 */
-
-.partie2{
-  position: absolute;
+.titreAboutus h3{
+    font-size: 5rem;
+    font-family: 'Sansita Swashed', sans-serif;
+}
+.zoneabout{
     width: 100%;
-    height: 50vh;
-    background-image: url("../images/partie2Home.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 800px;
+ 
+    position: relative;
+    top:120vh;
 }
-.toto{
-    text-align: center;
-    color: var(--button);
+.zoneabout img{
+    width: 100%;
+    height: 40%;
 }
-.description{
-    margin-top:10px ;
-    color: var(--textwhite);
-    font-size: 1.5rem;
+.TextAbout{
+    position: absolute;
+    top:10%;
+    left: 6%;
+    font-size: 20px;
+    color:var(--button);
+    font-family:'Poppins', sans-serif;
 }
-.button{
-    margin-top: 22px;
-    text-align: center;
-}
+/* footer */
+
 /* foooter */
 footer{
     
@@ -118,7 +114,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 1250px;
+    margin-top: 190vh;
     padding: 16px 0px;
 }
 .haut{

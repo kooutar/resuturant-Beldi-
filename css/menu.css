@@ -30,6 +30,7 @@ body{
      margin: 0px 0px 0px 73px;
  }
  nav{
+    padding-top: 20px;
     display: flex; 
  }
 .logo a img{
@@ -104,7 +105,6 @@ background-repeat: no-repeat;
     color: #fff;
     padding:  50px 20px;  
     gap: 150px;
-   
 }
 .prixproduit{
     display: flex;
@@ -112,13 +112,23 @@ background-repeat: no-repeat;
     line-height: 30px;
 }
 .buttonadd{
-   line-height: 30px;
+   display: flex;
+   flex-direction: column;
+}
+#infoIcone{
+    margin-bottom: 10px;
+    width: 25px;
+    margin-left: 15px;
 }
 .addButton{
     padding: 10px 20px;
     background-color: var(--button);
     color: var(--textwhite);
     border: none;
+    transition: ease 400ms;
+}
+.addButton:hover{
+    transform: scale(1.2);
 }
 
 .zoneExploremore{

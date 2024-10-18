@@ -25,11 +25,10 @@ body{
     background-repeat: no-repeat;
  }
  header{
-   
-    /* position: relative; */
-     margin: 0px 0px 0px 73px;
+    margin: 0px 0px 0px 73px;
  }
  nav{
+    padding-top: 20px;
     display: flex;
     
  }
@@ -44,7 +43,6 @@ header ul{
     margin-top: 28px;
      color:var(--textwhite) ;
      display: flex;
-     justify-content: space-between; 
 }
 
 header ul li{
@@ -79,6 +77,10 @@ a:hover{
     background-color: var(--button);
     color: var(--textwhite);
     cursor: pointer;
+    transition: ease 400ms;
+}
+.bte:hover{
+    transform: scale(1.2);
 }
 .link{
     color: var(--lienHover);
